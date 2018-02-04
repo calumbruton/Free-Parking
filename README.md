@@ -1,6 +1,6 @@
 # Free Parking
 
-Free Parking is a web application that helps Toronto drivers avoid parking tickets. 
+Free Parking is a web application that helps Toronto drivers avoid parking tickets. Created during Qhacks 2018.
 
 ## How?
 
