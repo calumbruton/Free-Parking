@@ -2,7 +2,7 @@
 
 ParkFree is a web application that helps Toronto drivers avoid parking tickets. 
 
-##How?
+#How?
 
 By utilizing the open goverment dataset of all parking tickets issued and the google heatmaps API we are able to visually display to the user the amount of tickets that have been issued around their location. Specifically, the user can enter a day of the week, and time, to decide where they should park based on historical data, quick and easily.
 
