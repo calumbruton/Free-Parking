@@ -13,7 +13,7 @@ html, body {
 
 #Logo{
   display: block;
-  margin-top:10px;
+  margin-top:15px;
   margin-left: 40%;
   z-index:1;
   position: fixed;
@@ -22,20 +22,47 @@ html, body {
 
 
 #navIcon {
-  margin-top:50px;
+  margin-top:60px;
   font-size:40px;
   cursor:pointer;
   color:white;
-  padding-left: 30px;
+  margin-left: 40px;
   z-index:1;
   position: fixed;
-
-
 }
+
+
+#mapInfo{
+  margin-left: 10%
+}
+
+#mapInfo p{
+  font-family: "Roboto", Times;
+}
+
+#mapInfo input{
+  margin-bottom: 5px;
+  padding: 5px;
+  font-family: "Roboto", Times;
+  font-size: 14px;
+}
+
+#mapInfo button{
+  margin-top: 20px;
+  margin-left: -10%;
+  width: 90%;
+}
+
+
 
 #mapButs{
-  margin-top:80%;
+  margin-top:40%;
 }
+
+#mapButs button{
+  width:80%;
+}
+
 
 .sidenav {
     height: 100%;
@@ -46,10 +73,20 @@ html, body {
     left: 0;
     background-color: #fff;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
     padding-top: 60px;
 }
 
+
+.sidenav h2{
+    font-size: 28px;
+    font-family: "Lobster", Times;
+
+}
+
+#alterTitle {
+  margin-left:10%;
+}
 
 .sidenav button {
     background-color: #4CAF50; /* Green */

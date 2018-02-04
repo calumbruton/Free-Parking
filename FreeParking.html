@@ -14,16 +14,22 @@
     <script src="sidenav.js"></script>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <p>Day of the week?</p><input type="text" dayOfWeek="0" id = "inpday"><br>
-      <p>What is the time?</p><input type="text" Time="0" id="inptime"><br>
-      <button onclick="initMap2(document.getElementById('inpday').value, document.getElementById('inptime').value)"> Submit </button>
 
+      
+      <div id="mapInfo">
+        <h2>Update Map</h2>
+        <p>Date? (yyyymmdd)</p><input type="text" dayOfWeek="0" id = "inpday" value="20170203"><br>
+        <p>Time? (24 hour clock)</p><input type="text" Time="0" id="inptime" value="1500"><br>
+        <button onclick="initMap2(document.getElementById('inpday').value, document.getElementById('inptime').value)"> Submit </button>
+      </div>
 
+      
       <div id="mapButs">
-      <button onclick="toggleHeatmap()">Toggle Heatmap</button>
-      <button onclick="changeGradient()">Change gradient</button>
-      <button onclick="changeRadius()">Change radius</button>
-      <button onclick="changeOpacity()">Change opacity</button>
+        <h2 id="alterTitle">Alter Map</h2>
+        <button onclick="toggleHeatmap()">Toggle Heatmap</button>
+        <button onclick="changeGradient()">Change gradient</button>
+        <button onclick="changeRadius()">Change radius</button>
+        <button onclick="changeOpacity()">Change opacity</button>
       </div>
     </div>
 
