@@ -10,12 +10,23 @@ html, body {
   padding: 0;
 }
 
+
+#Logo{
+  display: block;
+  margin-top:10px;
+  margin-left: 40%;
+  z-index:1;
+  position: fixed;
+
+}
+
+
 #navIcon {
-  padding-top:50px;
+  margin-top:50px;
   font-size:40px;
   cursor:pointer;
   color:white;
-  padding-left: 20px;
+  padding-left: 30px;
   z-index:1;
   position: fixed;
 
