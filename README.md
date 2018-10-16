@@ -1,6 +1,6 @@
 # Free Parking <img align="left" width="30" alt="Free Parking" src="https://user-images.githubusercontent.com/12948431/35780165-a3bb4f0e-09a5-11e8-8501-d8aaa014f3e6.png">
 
-Free Parking is a web application that helps Toronto drivers avoid parking tickets. Created during Qhacks 2018.
+Free Parking is a web application concept that helps Toronto drivers avoid parking tickets. Created during Qhacks 2018.
 
 ## How?
 
